@@ -1,5 +1,6 @@
 class Squad
   attr_reader :id
+
   attr_accessor :name, :mascot
   
   def initialize params, existing=false
